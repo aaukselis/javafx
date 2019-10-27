@@ -13,7 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Žmonijos vystymosi statistika");
         primaryStage.setScene(new Scene(root, 600, 405.0));
-        primaryStage.show();
+        primaryStage.show(); 
     }
 
     public static void main(String[] args) {
